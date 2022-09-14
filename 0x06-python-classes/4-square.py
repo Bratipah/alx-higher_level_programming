@@ -2,6 +2,7 @@
 
 """ Creating a square class """
 
+
 class Square:
 
     """ Defining a class square """
@@ -17,19 +18,14 @@ class Square:
         self.__size = size
 
     @property
-
     def size(self):
-
         return self.__size
 
     @size.setter
-
     def size(self, value):
 
     """ Setting the size of the square """
-
         if type(value) is not int:
-
             raise TypeError("size must be an integer")
 
         if value < 0:

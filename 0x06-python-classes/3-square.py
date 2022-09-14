@@ -2,6 +2,7 @@
 
 """ Creating a square class """
 
+
 class Square:
 
     """ Defining a class square """
