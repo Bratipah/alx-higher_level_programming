@@ -5,17 +5,11 @@ create a class Square
 """
 
 
-
-
-
 class Square:
 
     """
     Define the setter and getter for the size
     """
-
-
-
     def __init__(self, size=0, position=(0, 0)):
 
         """Initialize the square"""
@@ -24,18 +18,12 @@ class Square:
 
         self.position = position
 
-
-
     @property
-
     def size(self):
 
         return self.__size
 
-
-
     @size.setter
-
     def size(self, value):
 
         self.__size = value
@@ -48,18 +36,12 @@ class Square:
 
             raise ValueError("size must be >= 0")
 
-
-
     @property
-
     def position(self):
 
         return self.__position
 
-
-
     @position.setter
-
     def position(self, value):
 
         self.__position = value
@@ -76,18 +58,13 @@ class Square:
 
             raise TypeError("position must be a tuple of 2 positive integers")
 
-
-
     def area(self):
 
         """return the area of the square"""
 
         return (self.__size * self.__size)
 
-
-
     def my_print(self):
-
         """print the square depending of the size received"""
 
         if (self.__size == 0):
@@ -113,8 +90,6 @@ class Square:
                     print('#', end="")
 
                 print()
-
-
 
     def __str__(self):
 
