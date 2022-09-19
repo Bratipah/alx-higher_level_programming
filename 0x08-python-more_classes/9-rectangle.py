@@ -6,6 +6,7 @@ Defines a Rectangle class.
 
 """
 
+
 class Rectangle:
 
     """Rectangle class defined by width and height.
@@ -51,7 +52,6 @@ class Rectangle:
         if self.__height == 0 or self.__width == 0:
 
             return ''
-
 
         rec_str = ''
 
@@ -151,7 +151,6 @@ class Rectangle:
 
         return self.__width * self.__height
 
-
     def perimeter(self):
 
         """Calculates the perimeter of a Rectangle instance
@@ -170,7 +169,6 @@ class Rectangle:
 
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
-
 
         """Finds the biggest Rectangle based on the area
 
@@ -196,7 +194,6 @@ class Rectangle:
 
             raise TypeError("rect_2 must be an instance of Rectangle")
 
-
         if rect_1.area() == rect_2.area() or rect_1.area() > rect_2.area():
 
             return rect_1
@@ -207,7 +204,6 @@ class Rectangle:
 
     @classmethod
     def square(cls, size=0):
-
 
         """Creates a new Rectangle instance with width == height == size
 

@@ -6,6 +6,7 @@ Defines a Rectangle class.
 
 """
 
+
 class Rectangle:
 
     """Rectangle class defined by width and height."""
@@ -63,7 +64,6 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-
 
         """Sets the height of a Rectangle instance
 

@@ -6,6 +6,7 @@ Defines a Rectangle class.
 
 """
 
+
 class Rectangle:
 
     """Rectangle class defined by width and height.
@@ -41,7 +42,6 @@ class Rectangle:
         Rectangle.number_of_instances += 1
 
     def __str__(self):
-
 
         """Returns an informal and nicely printable string representation
 
@@ -111,7 +111,6 @@ class Rectangle:
 
     @property
     def height(self):
-
 
         """Retrieves the height of a Rectangle instance."""
 

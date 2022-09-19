@@ -129,7 +129,6 @@ class Rectangle:
 
         """
 
-
         if not isinstance(value, int):
 
             raise TypeError("height must be an integer")

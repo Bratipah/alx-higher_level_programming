@@ -25,6 +25,7 @@ def isSafe(board, row, col):
 
     return True
 
+
 def checkBoard(board, col):
 
     '''Checks the board state column by column using backtracking.
@@ -36,7 +37,6 @@ def checkBoard(board, col):
         col: The current colum to check.
 
     '''
-
 
     n = len(board)
 
@@ -54,8 +54,8 @@ def checkBoard(board, col):
 
             checkBoard(board, col + 1)
 
-if __name__ == "__main__":
 
+if __name__ == "__main__":
 
     import sys
 
